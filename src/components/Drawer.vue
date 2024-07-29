@@ -50,7 +50,7 @@ const ButtonDisabled = computed(() => isCreating.value || cartIsEmpty.value)
       />
       <InfoBlock
         v-if="orderId"
-        title="Заказ оформлен!"
+        title="Заказ подтвержден!"
         :description="`Ваш заказ #${orderId} `"
         image-url="/order-success-icon.png"
         text-link="нажмите на текст, чтобы перейти к консультанту"
